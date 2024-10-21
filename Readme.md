@@ -33,7 +33,8 @@ cd elevator-discord-bot
 Setting up a virtual environment is recommended to manage dependencies.
 
 ```python -m venv env
-source env/bin/activate   # On Windows use `env\Scripts\activate` ```
+source env/bin/activate   # On Windows use `env\Scripts\activate`
+```
 
 
 ### 3. Install Dependencies
