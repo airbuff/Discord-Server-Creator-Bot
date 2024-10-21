@@ -1,0 +1,32 @@
+ /The Elevator
+│
+├── /Lobby (General)
+│   ├── /Chiddy Chats (General)
+│   ├── /Underbelly (NSFW Memes)
+│   ├── /Back Alley (NSFW and sensitive content for mods)
+│   ├── /Small Talk (General voice chat)
+│   └── /Hookah Lounge (Private VIP voice)
+│
+├── /Game Floors (Gaming)
+│   ├── /CS:GO Penthouse (CS:GO surf text)
+│   ├── /Rust Roof (Rust text)
+│   ├── /Blockworks (Minecraft text)
+│   ├── /Dino Den (ARK text)
+│   ├── /CS:GO Arena (CS:GO voice)
+│   ├── /Rust Outpost (Rust voice)
+│   ├── /Minecraft Village (Minecraft voice)
+│   └── /ARK Wilderness (ARK voice)
+│
+├── /Tech Basement (Cybersecurity & Development)
+│   ├── /Cyber Deck (Cybersecurity text)
+│   ├── /Network Nook (Security and cryptography text)
+│   ├── /Dev Den (Development text)
+│   ├── /Cyber Control Room (Private voice for cyber mods)
+│   └── /Code Cubicle (Development collaboration voice)
+│
+├── /Elevator Control Room (Admin and Support)
+│   ├── /Elevator Rules (Rules and guidelines)
+│   ├── /Join the Ride (Server join info)
+│   └── /Support Booth (Help and support)
+│
+└── /AFK Shaft (Idle users)
