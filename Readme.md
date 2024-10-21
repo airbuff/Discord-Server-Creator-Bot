@@ -24,24 +24,24 @@ The main purpose of the bot is to streamline server setup, allowing admins to qu
 
 ## Step-by-Step Guide
 
-1. Clone the Repository
+###1. Clone the Repository
 
 ```git clone https://github.com/airbuff/Discord-Server-Creator-Bot/
 cd elevator-discord-bot
 ```
-2. Set Up Virtual Environment (optional)
+###2. Set Up Virtual Environment (optional)
 Setting up a virtual environment is recommended to manage dependencies.
 
 ```python -m venv env
 source env/bin/activate   # On Windows use `env\Scripts\activate`
 ```
 
-3. Install Dependencies
+###3. Install Dependencies
 Install the required Python libraries.
 
 ```pip install -r requirements.txt```
 
-4. Configure the Bot Token
+###4. Configure the Bot Token
 Go to the Discord Developer Portal and create a new application.
 
 Under the "Bot" section, create a bot and copy the token.
@@ -52,12 +52,12 @@ For .env file setup:
 
 ```DISCORD_TOKEN=your-bot-token-here```
 
-5. Run the Bot
+###5. Run the Bot
 Run the bot locally with:
 
 ```python bot_script.py```
 
-6. Invite the Bot to Your Server
+###6. Invite the Bot to Your Server
 Go back to the Discord Developer Portal.
 Under the "OAuth2" tab, select "URL Generator."
 In scopes, select bot.
@@ -66,7 +66,7 @@ Administrator or customize your own permissions.
 Copy the generated URL and open it in your browser.
 Select the server you want to invite the bot to and authorize it.
 
-7. Use the Bot
+###7. Use the Bot
 Once the bot is added to your server, type the following command in a text channel where the bot has permission:
 
 ```!setup_server```
@@ -74,11 +74,11 @@ Once the bot is added to your server, type the following command in a text chann
 The bot will then automatically create the roles, channels, and categories for you.
 
 File Structure
-
+```
 ├── bot_script.py            # Main bot script
 ├── requirements.txt         # Python dependencies
 └── README.md                # Project documentation (this file)
-
+```
 Troubleshooting
 If you encounter any issues:
 
@@ -91,7 +91,7 @@ If you’d like to contribute, feel free to fork this repository and submit a pu
 This bot is designed to be easily expandable. Feel free to modify the bot to suit your own server needs, add more roles, or adjust permissions as required.
 
 
-Additional Notes:
+## Additional Notes:
 - Before pushing to GitHub, ensure you **do not** commit sensitive files such as `.env` containing your bot token.
 - The `requirements.txt` file should list the necessary dependencies (like `discord.py`).
 
