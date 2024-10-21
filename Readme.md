@@ -24,8 +24,6 @@ The main purpose of the bot is to streamline server setup, allowing admins to qu
 
 ## Step-by-Step Guide
 
-###
-
 1. Clone the Repository
 
 ```git clone https://github.com/yourusername/elevator-discord-bot.git
@@ -92,7 +90,7 @@ If you’d like to contribute, feel free to fork this repository and submit a pu
 This bot is designed to be easily expandable. Feel free to modify the bot to suit your own server needs, add more roles, or adjust permissions as required.
 
 
-### Additional Notes: ###
+Additional Notes:
 - Before pushing to GitHub, ensure you **do not** commit sensitive files such as `.env` containing your bot token.
 - The `requirements.txt` file should list the necessary dependencies (like `discord.py`).
 
