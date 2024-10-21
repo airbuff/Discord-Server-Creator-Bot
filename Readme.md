@@ -39,8 +39,8 @@ source env/bin/activate   # On Windows use `env\Scripts\activate`
 ### 3. Install Dependencies
 Install the required Python libraries.
 
-```pip install -r requirements.txt```
-
+```pip install -r requirements.txt
+```
 ### 4. Configure the Bot Token
 Go to the Discord Developer Portal and create a new application.
 
@@ -50,13 +50,13 @@ In your local environment, set up a .env file or directly insert your bot token 
 
 For .env file setup:
 
-```DISCORD_TOKEN=your-bot-token-here```
-
+```DISCORD_TOKEN=your-bot-token-here
+```
 ### 5. Run the Bot
 Run the bot locally with:
 
-```python bot_script.py```
-
+```python bot_script.py
+```
 ### 6. Invite the Bot to Your Server
 Go back to the Discord Developer Portal.
 Under the "OAuth2" tab, select "URL Generator."
@@ -69,8 +69,8 @@ Select the server you want to invite the bot to and authorize it.
 ### 7. Use the Bot
 Once the bot is added to your server, type the following command in a text channel where the bot has permission:
 
-```!setup_server```
-
+```!setup_server
+```
 The bot will then automatically create the roles, channels, and categories for you.
 
 File Structure
