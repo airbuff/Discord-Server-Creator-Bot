@@ -35,8 +35,6 @@ Setting up a virtual environment is recommended to manage dependencies.
 ```python -m venv env
 source env/bin/activate   # On Windows use `env\Scripts\activate`
 ```
-
-
 ### 3. Install Dependencies
 Install the required Python libraries.
 
