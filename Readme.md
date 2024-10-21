@@ -26,14 +26,15 @@ The main purpose of the bot is to streamline server setup, allowing admins to qu
 
 1. Clone the Repository
 
-```git clone https://github.com/yourusername/elevator-discord-bot.git
-cd elevator-discord-bot```
-
+```git clone https://github.com/airbuff/Discord-Server-Creator-Bot/
+cd elevator-discord-bot
+```
 2. Set Up Virtual Environment (optional)
 Setting up a virtual environment is recommended to manage dependencies.
 
 ```python -m venv env
-source env/bin/activate   # On Windows use `env\Scripts\activate````
+source env/bin/activate   # On Windows use `env\Scripts\activate`
+``
 
 3. Install Dependencies
 Install the required Python libraries.
